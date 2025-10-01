@@ -21,7 +21,7 @@ builder.Services.AddCors(o =>
 // 2) Các service khác
 builder.Services.AddHttpClient("runpod", c =>
 {
-    c.BaseAddress = new Uri("https://ob7hxqlhpj0sc3-8000.proxy.runpod.net");
+    c.BaseAddress = new Uri("https://ew3x2djjn2a9gn-8000.proxy.runpod.net");
     c.Timeout = TimeSpan.FromSeconds(60);
 });
 
